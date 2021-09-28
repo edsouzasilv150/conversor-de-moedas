@@ -12,6 +12,8 @@ import {
 })
 export class ConversorService {
 
+  /*Devido a limitação do plano ser free na Fixer, 
+  a url só faz conversão do Euro para as demais moedas. */
   private readonly BASE_URL = "http://data.fixer.io/api/latest?access_key=743c36421d5cfddd9c646c5c3c833793"
   constructor(private http: HttpClient) { }
 
