@@ -45,8 +45,8 @@ export class ModalCotacaoComponent {
   }
 
   get dataCotacao(): string {
-    return this.conversorService.cotacaoDe(
-      this.conversaoResponse, this.conversao);
+    return this.conversorService.dataCotacao(
+      this.conversaoResponse);
   }
     
 }
