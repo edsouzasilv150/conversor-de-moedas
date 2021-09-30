@@ -1,3 +1,9 @@
 h4 {
-    margin: auto;
+    margin: 0;
+    margin-right: 150px;
 }
+
+button.close {
+    margin-left: 0;
+}
+
